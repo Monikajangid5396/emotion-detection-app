@@ -1,0 +1,110 @@
+# Emotion Detection App
+
+This project is a text-based emotion detection web application that predicts human emotions from user input using machine learning and deep learning models.
+
+The goal of this project is to understand how natural language processing (NLP) can be applied to real-world problems and to build a simple, interactive system around it.
+
+---
+
+## Overview
+
+Emotion detection from text plays an important role in applications such as mental health monitoring, chatbots, and user behavior analysis.
+
+In this project, I built a system that:
+- Accepts text input from the user  
+- Cleans and preprocesses the text  
+- Converts it into numerical features using TF-IDF  
+- Uses trained models to predict the most likely emotion  
+
+The application is implemented using Streamlit and runs locally for quick interaction.
+
+---
+
+## Features
+
+- Real-time emotion prediction  
+- Supports both machine learning and deep learning approaches  
+- Simple and easy-to-use interface  
+- Efficient text preprocessing using NLP techniques  
+- Fast and lightweight setup  
+
+---
+
+## Tech Stack
+
+- Python  
+- Streamlit  
+- Scikit-learn  
+- TensorFlow / Keras  
+- NLTK  
+
+---
+
+## Project Structure
+
+- `app.py` → Streamlit interface  
+- `main.py` → Core prediction logic  
+- `model.h5` → Deep learning model  
+- `logistic_regresion.pkl` → Machine learning model  
+- `tfidf_vectorizer.pkl` → Feature extractor  
+- `label_encoder.pkl` → Label encoder  
+- `requirements.txt` → Project dependencies  
+- `train.txt` → Dataset  
+- `notebook.ipynb` → Model training notebook  
+
+---
+
+## How to Run
+
+1. Clone the repository  
+
+
+---
+
+## Example
+
+Input:  
+I feel really happy today  
+
+Output:  
+Joy  
+
+---
+
+## Learning Outcomes
+
+- Built an end-to-end NLP pipeline  
+- Applied text preprocessing and feature extraction  
+- Worked with TF-IDF and classification models  
+- Explored both machine learning and deep learning approaches  
+- Integrated models into a functional web application  
+
+---
+
+## Limitations
+
+- Model performance depends on training data quality  
+- Limited emotion classes  
+- Currently runs locally (not deployed)  
+
+---
+
+## Future Improvements
+
+- Improve accuracy with better datasets and tuning  
+- Add confidence/probability scores  
+- Deploy the application online  
+- Enhance UI and user experience  
+
+---
+
+## Author
+
+Monika Jangid  
+B.Tech CSE  
+Interested in Data Analysis and Machine Learning  
+
+---
+
+If you find this project useful, feel free to star the repository.
+
