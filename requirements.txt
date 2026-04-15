@@ -1,35 +1,5 @@
-# Core ML + DL
-tensorflow>=2.20,<2.22
-keras>=3.13
-
-# Dependencies
-protobuf>=6.31,<8
-numpy>=1.26
-scipy>=1.8
-pandas>=2.2
-scikit-learn>=1.7
-
-# Visualization
-matplotlib>=3.10
-seaborn>=0.13
-wordcloud>=1.9
-
-# NLP
-nltk>=3.9
-
-# Google + LangChain
-google-ai-generativelanguage>=0.6.16,<0.7
-langchain-google-genai==2.1.2
-grpcio-status>=1.71
-google-api-core>=2.24
-
-# Spyder + Jupyter compatibility
-ipython>=8.15,<9.4
-ipykernel>=6.29,<7
-spyder==6.1.0
-spyder-kernels==3.1.1
-
-# Other dependencies
-attrs>=25.4
-typing-extensions>=4.14
-narwhals>=2
+streamlit
+scikit-learn
+pandas
+numpy
+nltk
